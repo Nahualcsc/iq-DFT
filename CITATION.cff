@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "iq-DFT"
+repository-code: "https://github.com/Nahualcsc/iq-DFT"
+license: MIT
+authors:
+  - family-names: Sobrino
+    given-names: Nahual
+preferred-citation:
+  type: article
+  title: "Thermoelectric transport within density functional theory"
+  authors:
+    - family-names: Sobrino
+      given-names: Nahual
+    - family-names: Eich
+      given-names: Florian
+    - family-names: Stefanucci
+      given-names: Gianluca
+    - family-names: "D'Agosta"
+      given-names: Roberto
+    - family-names: Kurth
+      given-names: Stefan
+  journal: "Physical Review B"
+  volume: 104
+  start: 125115
+  year: 2021
+  doi: "10.1103/PhysRevB.104.125115"

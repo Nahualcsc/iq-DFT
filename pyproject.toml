@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iqdft"
+version = "1.0.0"
+description = "iq-DFT: steady-state density functional theory for thermoelectric transport (single impurity Anderson model)"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "Nahual Sobrino" }]
+dependencies = ["numpy", "scipy"]
+
+[project.urls]
+Repository = "https://github.com/Nahualcsc/iq-DFT"
+Paper = "https://doi.org/10.1103/PhysRevB.104.125115"
+
+[project.optional-dependencies]
+plot = ["matplotlib"]
+test = ["pytest", "mpmath"]
+
+[tool.setuptools]
+packages = ["iqdft"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
